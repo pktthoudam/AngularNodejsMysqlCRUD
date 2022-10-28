@@ -1,0 +1,22 @@
+<div class="container">
+    <h2 class="text-center text-primary">List Of Persons</h2>
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let per of persons">
+            <th scope="row">{{per.id}}</th>
+            <td>{{per.fName}}</td>
+            <td>{{per.lName}}</td>
+            <td><button class="btn btn-primary" routerLink="/info/{{per.id}}">More Details</button></td>
+          </tr>
+         
+        </tbody>
+      </table>
+</div>

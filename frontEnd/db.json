@@ -1,0 +1,14 @@
+{
+  "persons": [
+    {
+      "fName": "tom",
+      "lName": "son",
+      "fatherName": "hennary",
+      "sex": "Male",
+      "eduQua": "Matriculation",
+      "mobile": 123,
+      "address": "banglore",
+      "id": 1
+    }
+  ]
+}
