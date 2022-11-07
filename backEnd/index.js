@@ -5,6 +5,7 @@ const handler = require('./handler');
 
 const app = express();
 
+// cors
 app.use(cors());
 app.use(bodyparser.json());
 
